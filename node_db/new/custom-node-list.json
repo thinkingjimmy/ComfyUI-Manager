@@ -10,7 +10,76 @@
 
         
         
-
+        {
+            "author": "Comflowy",
+            "title": "Comflowy's Custom Nodes",
+            "id": "comflowy",
+            "reference": "https://github.com/6174/comflowy-nodes",
+            "files": [
+                "https://github.com/6174/comflowy-nodes"
+            ],
+            "install_type": "git-clone",
+            "description": "Custom nodes for ComfyUI by Comflowy."
+        },
+        {
+            "author": "TTPlanetPig",
+            "reference": "https://github.com/TTPlanetPig/Comfyui_Hunyuan3D",
+            "files": [
+                "https://github.com/TTPlanetPig/Comfyui_Hunyuan3D"
+            ],
+            "install_type": "git-clone",
+            "description": "NODES:TTP_Hunyuan3DNode, TTP_SquareImage, TTP_GIFViewer"
+        },
+        {
+            "author": "ARZUMATA",
+            "title": "ComfyUI-Qwen2",
+            "reference": "https://github.com/ARZUMATA/ComfyUI-ARZUMATA-Qwen2",
+            "files": [
+                "https://github.com/ARZUMATA/ComfyUI-ARZUMATA-Qwen2"
+            ],
+            "install_type": "git-clone",
+            "description": "Qwen2 Nodes for ComfyUI.\nI needed to run Qwen2 on ComfyUI to use it in my workflow for batching images and captioning and none of the implementations I found on the web worked the way I wanted.[w/May contain bugs.]"
+        },
+        {
+            "author": "ryanontheinside",
+            "title": "Doom",
+            "reference": "https://github.com/ryanontheinside/ComfyUI_Doom",
+            "files": [
+                "https://github.com/ryanontheinside/ComfyUI_Doom"
+            ],
+            "install_type": "git-clone",
+            "description": "Play Doom in ComfyUI."
+        },
+        {
+            "author": "wTechArtist",
+            "title": "ComfyUI-StableDelight-weiweiliang",
+            "reference": "https://github.com/wTechArtist/ComfyUI-StableDelight-weiweiliang",
+            "files": [
+                "https://github.com/wTechArtist/ComfyUI-StableDelight-weiweiliang"
+            ],
+            "install_type": "git-clone",
+            "description": "Nodes:StableDelight-weiweiliang"
+        },
+        {
+            "author": "VangengLab",
+            "title": "ComfyUI-LivePortrait_v2",
+            "reference": "https://github.com/VangengLab/ComfyUI-LivePortrait_v2",
+            "files": [
+                "https://github.com/VangengLab/ComfyUI-LivePortrait_v2"
+            ],
+            "install_type": "git-clone",
+            "description": "We developed a custom_node for Liveportrait_v2 that enables flexible use on Comfyui to drive animal image-based emoji generation from videos."
+        },
+        {
+            "author": "VangengLab",
+            "title": "ComfyUI-LivePortrait_v3",
+            "reference": "https://github.com/VangengLab/ComfyUI-LivePortrait_v3",
+            "files": [
+                "https://github.com/VangengLab/ComfyUI-LivePortrait_v3"
+            ],
+            "install_type": "git-clone",
+            "description": "We developed a custom_node for Liveportrait_v3 that enables flexible use on Comfyui to drive image-based emoji generation from photos."
+        },
         {
             "author": "jtydhr88",
             "title": "ComfyUI-Hunyuan3D-1-wrapper",
@@ -168,12 +237,13 @@
         {
             "author": "Blonicx",
             "title": "ComfyUI-Rework-X",
+            "id": "rework-x",
             "reference": "https://github.com/Blonicx/ComfyUI-X-Rework",
             "files": [
-               "https://github.com/Blonicx/ComfyUI-X-Rework"
+                "https://github.com/Blonicx/ComfyUI-X-Rework"
             ],
-            "description": "This tool is their to help ComfyUI User to make the generation of Images easier and help to train own Models! The Extension is currently under development and gets new Features every Week.",
-            "install_type": "git-clone"
+            "install_type": "git-clone",
+            "description": "This is a plugin for ComfyUI that adds new Util Nodes and makes Lora training in ComfyUI abel. Except that it adds a new Features for Images."
         },
         {
             "author": "morino-kumasan",
@@ -618,76 +688,6 @@
             ],
             "install_type": "git-clone",
             "description": "The Pony Character Prompt Picker node reads an Excel file specified by the user, allows manual selection of a tab, and randomly picks a cell value from a specified column, starting from row 3 to the end. The selected value is output as a string to the next node in the ComfyUI workflow."
-        },
-        {
-            "author": "kinfolk0117",
-            "title": "Gridswapper",
-            "reference": "https://github.com/kinfolk0117/ComfyUI_GridSwapper",
-            "files": [
-                "https://github.com/kinfolk0117/ComfyUI_GridSwapper"
-            ],
-            "install_type": "git-clone",
-            "description": "Gridswapper takes a batch of latents and spreads them over the necessary amount of grids. It then automatically shuffles the images in the grids for each step. So, a batch of 12 latents for a 2x2 grid will generate 3 grid images in each step. It will then shuffle around the images for the next step. This makes it possible for all images to influence the others during the denoising process. This approach works well for generating 2-4 grids."
-        },
-        {
-            "author": "changwook987",
-            "title": "ComfyUI-Small-Utility",
-            "reference": "https://github.com/changwook987/ComfyUI-Small-Utility",
-            "files": [
-                "https://github.com/changwook987/ComfyUI-Small-Utility"
-            ],
-            "install_type": "git-clone",
-            "description": "Context menu extension for CLIPTextEncode (sort prompt), EmptyLatentImage (sdxl size selector)."
-        },
-        {
-            "author": "mithamunda",
-            "title": "OllamaKiller Node for ComfyUI",
-            "reference": "https://github.com/mithamunda/ComfyUI-ollama_killer",
-            "files": [
-                "https://github.com/mithamunda/ComfyUI-ollama_killer"
-            ],
-            "install_type": "git-clone",
-            "description": "OllamaKiller is a utility node for ComfyUI designed to manage VRAM usage more efficiently by automatically terminating the ollama_llama_server.exe process. This is particularly useful for users with limited VRAM, allowing them to clear up memory after running models and improve workflow performance."
-        },
-        {
-            "author": "chris-arsenault",
-            "title": "ComfyUI-AharaNodes",
-            "reference": "https://github.com/chris-arsenault/ComfyUI-AharaNodes",
-            "files": [
-                "https://github.com/chris-arsenault/ComfyUI-AharaNodes"
-            ],
-            "install_type": "git-clone",
-            "description": "NODES:Frame Segmenter, Get Frame at Index, Repeat Sampler Config, Patch Repeat Sampler Config (Model), Patch Repeat Sampler Config (Latent), KSampler (Simple Input)"
-        },
-        {
-            "author": "Jonseed",
-            "title": "ComfyUI-Detail-Daemon",
-            "reference": "https://github.com/Jonseed/ComfyUI-Detail-Daemon",
-            "files": [
-                "https://github.com/Jonseed/ComfyUI-Detail-Daemon"
-            ],
-            "install_type": "git-clone",
-            "description": "A port of muerrilla's [a/sd-webui-Detail-Daemon](https://github.com/muerrilla/sd-webui-detail-daemon) as a node for ComfyUI, to adjust sigmas that control detail."
-        },
-        {
-            "author": "gt732",
-            "title": "ComfyUI-DreamWaltz-G",
-            "reference": "https://github.com/gt732/ComfyUI-DreamWaltz-G",
-            "files": [
-                "https://github.com/gt732/ComfyUI-DreamWaltz-G"
-            ],
-            "install_type": "git-clone",
-            "description": "This repository contains custom ComfyUI nodes designed to integrate with [a/DreamWaltz-G](https://github.com/Yukun-Huang/DreamWaltz-G), a cutting-edge model for generating expressive 3D Gaussian avatars using skeleton-guided 2D diffusion."
-        },
-        {
-            "author": "DrMWeigand",
-            "title": "StereoVision Plugin for ComfyUI",
-            "reference": "https://github.com/DrMWeigand/ComfyUI-StereoVision",
-            "files": [
-                "https://github.com/DrMWeigand/ComfyUI-StereoVision"
-            ],
-            "install_type": "git-clone",
-            "description": "The StereoVision plugin for ComfyUI enables the creation of stereoscopic and autostereoscopic images and videos using depth maps. It supports both traditional stereoscopic image generation and autostereogram (Magic Eye) creation."
         }
     ]
 }
